@@ -1,0 +1,4 @@
+mov ax, [0x600000]
+and ax, 0xdf
+mov [0x600001], ax
+done:
